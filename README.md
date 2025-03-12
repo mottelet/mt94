@@ -6,9 +6,9 @@ Par exemple, pour diffuser le fichier `exemples/acp_iris.ipynb` à des utilisate
 
 https://jupyterhub-mt94.utc.fr/hub/user-redirect/git-pull?repo=https://github.com/mottelet/mt94&urlpath=lab/tree/mt94/exemples/acp_iris.ipynb&branch=main
 
-Pour les utilisateurs utilisant un serveur jupyterlab local sur leur machine, il faudra plutôt leur donner l'URL suivant :
+Pour les utilisateurs utilisant un serveur jupyterlab local sur leur machine, il faudra plutôt leur donner l'URL suivant (attention au préfixe `http://` différent de celui pour le jupyterhub) :
 
-https://localhost:8888/git-pull?repo=https://github.com/mottelet/mt94&urlpath=lab/tree/mt94/exemples/acp_iris.ipynb&branch=main
+http://localhost:8888/git-pull?repo=https://github.com/mottelet/mt94&urlpath=lab/tree/mt94/exemples/acp_iris.ipynb&branch=main
 
 Important à savoir : les modifications locales faites sur les fichiers ainsi téléchargés ne sont pas affectées si l'URL est chargé ultérieurement (voir https://nbgitpuller.readthedocs.io/en/latest/topic/automatic-merging.html)
 
